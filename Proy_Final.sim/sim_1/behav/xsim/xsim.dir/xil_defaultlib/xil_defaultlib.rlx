@@ -1,0 +1,20 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_100/clk_wiz_100.v,1606588300,verilog,,,,clk_wiz_100,,,../../../../Proy_Final.srcs/sources_1/ip/clk_wiz_100;../../../../Proy_Final.srcs/sources_1/ip/clk_wiz_50,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_100/clk_wiz_100_clk_wiz.v,1606588300,verilog,,C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_100/clk_wiz_100.v,,clk_wiz_100_clk_wiz,,,../../../../Proy_Final.srcs/sources_1/ip/clk_wiz_100;../../../../Proy_Final.srcs/sources_1/ip/clk_wiz_50,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_50/clk_wiz_50.v,1606588341,verilog,,C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_100/clk_wiz_100_clk_wiz.v,,clk_wiz_50,,,../../../../Proy_Final.srcs/sources_1/ip/clk_wiz_100;../../../../Proy_Final.srcs/sources_1/ip/clk_wiz_50,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_50/clk_wiz_50_clk_wiz.v,1606588340,verilog,,C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_50/clk_wiz_50.v,,clk_wiz_50_clk_wiz,,,../../../../Proy_Final.srcs/sources_1/ip/clk_wiz_100;../../../../Proy_Final.srcs/sources_1/ip/clk_wiz_50,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/CARACTERES_ESPECIALES_REVD.vhd,1607317377,vhdl,,,,caracteres_especiales_revd,,,,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/COMANDOS_LCD_REVD.vhd,1607317609,vhdl,C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/LIB_LCD_INTESC_REVD.vhd,,,comandos_lcd_revd,,,,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/LCD.vhd,1606588160,vhdl,,,,lcd_example,,,,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/LIB_LCD_INTESC_REVD.vhd,1607318775,vhdl,,,,lib_lcd_intesc_revd,,,,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/PROCESADOR_LCD_REVD.vhd,1607317359,vhdl,,,,procesador_lcd_revd,,,,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/TWI.vhd,1606588223,vhdl,C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/tmpSensor.vhd,,,twictl;twiutils,,,,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/bin_bcd.vhd,1606588181,vhdl,,,,bin2bcd,,,,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/lcd_controller.vhd,1606588171,vhdl,,,,lcd_controller,,,,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/main.vhd,1607318488,vhdl,,,,nexys4ddruserdemo,,,,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/servo.vhd,1607048692,vhdl,,,,main_pwm,,,,,,,,
+C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.srcs/sources_1/new/tmpSensor.vhd,1606588813,vhdl,,,,tempsensorctl,,,,,,,,

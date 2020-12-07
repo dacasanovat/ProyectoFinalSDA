@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec  7 15:26:01 2020
+# Process ID: 16920
+# Current directory: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1
+# Command line: vivado.exe -log Nexys4DdrUserDemo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Nexys4DdrUserDemo.tcl
+# Log file: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/Nexys4DdrUserDemo.vds
+# Journal file: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Nexys4DdrUserDemo.tcl -notrace

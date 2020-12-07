@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Proy_Final.srcs/sources_1/new/CARACTERES_ESPECIALES_REVD.vhd" \
+"../../../../Proy_Final.srcs/sources_1/new/COMANDOS_LCD_REVD.vhd" \
+"../../../../Proy_Final.srcs/sources_1/new/LIB_LCD_INTESC_REVD.vhd" \
+"../../../../Proy_Final.srcs/sources_1/new/PROCESADOR_LCD_REVD.vhd" \
+"../../../../Proy_Final.srcs/sources_1/new/TWI.vhd" \
+"../../../../Proy_Final.srcs/sources_1/new/bin_bcd.vhd" \
+"../../../../Proy_Final.srcs/sources_1/new/servo.vhd" \
+"../../../../Proy_Final.srcs/sources_1/new/tmpSensor.vhd" \
+"../../../../Proy_Final.srcs/sources_1/new/main.vhd" \
+
+# Do not sort compile order
+nosort

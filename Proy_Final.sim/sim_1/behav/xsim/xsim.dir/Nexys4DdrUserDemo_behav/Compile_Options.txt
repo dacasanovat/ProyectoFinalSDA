@@ -1,0 +1,1 @@
+-wto "1a8cf1cae16b440695f3d0f30902e562" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "Nexys4DdrUserDemo_behav" "xil_defaultlib.Nexys4DdrUserDemo" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,458 @@
+
+*** Running vivado
+    with args -log Nexys4DdrUserDemo.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Nexys4DdrUserDemo.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source Nexys4DdrUserDemo.tcl -notrace
+Command: synth_design -top Nexys4DdrUserDemo -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13124
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1017.977 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Nexys4DdrUserDemo' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/main.vhd:39]
+INFO: [Synth 8-3491] module 'clk_wiz_100' declared at 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/.Xil/Vivado-16920-ESL3145/realtime/clk_wiz_100_stub.v:5' bound to instance 'clock_instance' of component 'clk_wiz_100' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/main.vhd:192]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_100' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/.Xil/Vivado-16920-ESL3145/realtime/clk_wiz_100_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_100' (1#1) [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/.Xil/Vivado-16920-ESL3145/realtime/clk_wiz_100_stub.v:5]
+INFO: [Synth 8-3491] module 'bin2bcd' declared at 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/bin_bcd.vhd:5' bound to instance 'inst_bin2bcdF' of component 'bin2bcd' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/main.vhd:207]
+INFO: [Synth 8-638] synthesizing module 'bin2bcd' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/bin_bcd.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'bin2bcd' (2#1) [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/bin_bcd.vhd:15]
+INFO: [Synth 8-3491] module 'bin2bcd' declared at 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/bin_bcd.vhd:5' bound to instance 'inst_bin2bcdC' of component 'bin2bcd' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/main.vhd:212]
+	Parameter FPGA_CLK bound to: 100000000 - type: integer 
+INFO: [Synth 8-3491] module 'LIB_LCD_INTESC_REVD' declared at 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/LIB_LCD_INTESC_REVD.vhd:177' bound to instance 'inst_lcd_prueba' of component 'lib_lcd_intesc_revd' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/main.vhd:231]
+INFO: [Synth 8-638] synthesizing module 'LIB_LCD_INTESC_REVD' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/LIB_LCD_INTESC_REVD.vhd:210]
+	Parameter FPGA_CLK bound to: 100000000 - type: integer 
+	Parameter FPGA_CLK bound to: 100000000 - type: integer 
+	Parameter NUM_INST bound to: 38 - type: integer 
+INFO: [Synth 8-3491] module 'PROCESADOR_LCD_REVD' declared at 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/PROCESADOR_LCD_REVD.vhd:10' bound to instance 'u1' of component 'PROCESADOR_LCD_REVD' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/LIB_LCD_INTESC_REVD.vhd:315]
+INFO: [Synth 8-638] synthesizing module 'PROCESADOR_LCD_REVD' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/PROCESADOR_LCD_REVD.vhd:31]
+	Parameter FPGA_CLK bound to: 100000000 - type: integer 
+	Parameter NUM_INST bound to: 38 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'PROCESADOR_LCD_REVD' (3#1) [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/PROCESADOR_LCD_REVD.vhd:31]
+INFO: [Synth 8-3491] module 'CARACTERES_ESPECIALES_REVD' declared at 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/CARACTERES_ESPECIALES_REVD.vhd:4' bound to instance 'U2' of component 'CARACTERES_ESPECIALES_REVD' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/LIB_LCD_INTESC_REVD.vhd:322]
+INFO: [Synth 8-638] synthesizing module 'CARACTERES_ESPECIALES_REVD' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/CARACTERES_ESPECIALES_REVD.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'CARACTERES_ESPECIALES_REVD' (4#1) [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/CARACTERES_ESPECIALES_REVD.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'LIB_LCD_INTESC_REVD' (5#1) [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/LIB_LCD_INTESC_REVD.vhd:210]
+INFO: [Synth 8-3491] module 'main_pwm' declared at 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/servo.vhd:5' bound to instance 'inst_servo' of component 'main_pwm' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/main.vhd:253]
+INFO: [Synth 8-638] synthesizing module 'main_pwm' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/servo.vhd:16]
+INFO: [Synth 8-3491] module 'clk_wiz_50' declared at 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/.Xil/Vivado-16920-ESL3145/realtime/clk_wiz_50_stub.v:5' bound to instance 'clock_instance' of component 'clk_wiz_50' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/servo.vhd:51]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_50' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/.Xil/Vivado-16920-ESL3145/realtime/clk_wiz_50_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_50' (6#1) [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/.Xil/Vivado-16920-ESL3145/realtime/clk_wiz_50_stub.v:5]
+WARNING: [Synth 8-614] signal 'counter' is read in the process but is not in the sensitivity list [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/servo.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'main_pwm' (7#1) [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/servo.vhd:16]
+	Parameter CLOCKFREQ bound to: 100 - type: integer 
+INFO: [Synth 8-3491] module 'TempSensorCtl' declared at 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/tmpSensor.vhd:19' bound to instance 'Inst_TempSensorCtl' of component 'TempSensorCtl' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/main.vhd:264]
+INFO: [Synth 8-638] synthesizing module 'TempSensorCtl' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/tmpSensor.vhd:36]
+	Parameter CLOCKFREQ bound to: 100 - type: integer 
+	Parameter CLOCKFREQ bound to: 100 - type: integer 
+	Parameter ATTEMPT_SLAVE_UNBLOCK bound to: 1 - type: bool 
+INFO: [Synth 8-3491] module 'TWICtl' declared at 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/TWI.vhd:19' bound to instance 'Inst_TWICtl' of component 'TWICtl' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/tmpSensor.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'TWICtl' [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/TWI.vhd:83]
+	Parameter CLOCKFREQ bound to: 100 - type: integer 
+	Parameter ATTEMPT_SLAVE_UNBLOCK bound to: 1 - type: bool 
+INFO: [Synth 8-226] default block is never used [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/TWI.vhd:308]
+INFO: [Synth 8-226] default block is never used [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/TWI.vhd:326]
+INFO: [Synth 8-226] default block is never used [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/TWI.vhd:344]
+INFO: [Synth 8-226] default block is never used [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/TWI.vhd:362]
+INFO: [Synth 8-226] default block is never used [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/TWI.vhd:380]
+INFO: [Synth 8-226] default block is never used [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/TWI.vhd:398]
+WARNING: [Synth 8-614] signal 'timeOutCnt' is read in the process but is not in the sensitivity list [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/TWI.vhd:451]
+INFO: [Synth 8-256] done synthesizing module 'TWICtl' (8#1) [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/TWI.vhd:83]
+INFO: [Synth 8-226] default block is never used [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/tmpSensor.vhd:305]
+WARNING: [Synth 8-614] signal 'initA' is read in the process but is not in the sensitivity list [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/tmpSensor.vhd:300]
+INFO: [Synth 8-256] done synthesizing module 'TempSensorCtl' (9#1) [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/tmpSensor.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'Nexys4DdrUserDemo' (10#1) [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/new/main.vhd:39]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1017.977 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1017.977 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1017.977 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.071 . Memory (MB): peak = 1017.977 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_100/clk_wiz_100/clk_wiz_100_in_context.xdc] for cell 'clock_instance'
+Finished Parsing XDC File [c:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_100/clk_wiz_100/clk_wiz_100_in_context.xdc] for cell 'clock_instance'
+Parsing XDC File [c:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_50/clk_wiz_50/clk_wiz_50_in_context.xdc] for cell 'inst_servo/clock_instance'
+Finished Parsing XDC File [c:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_50/clk_wiz_50/clk_wiz_50_in_context.xdc] for cell 'inst_servo/clock_instance'
+Parsing XDC File [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/constrs_1/new/Nexys4DDR_C.xdc]
+CRITICAL WARNING: [Constraints 18-1056] Clock 'sys_clk_pin' completely overrides clock 'clk_i'.
+New: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} [get_ports clk_i], [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/constrs_1/new/Nexys4DDR_C.xdc:12]
+Previous: create_clock -period 10.000 [get_ports clk_i], [c:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_100/clk_wiz_100/clk_wiz_100_in_context.xdc:1]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+WARNING: [Vivado 12-508] No pins matched 'Inst_Audio/DDR/rstn_reg/C'. [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/constrs_1/new/Nexys4DDR_C.xdc:259]
+WARNING: [Vivado 12-508] No pins matched 'Inst_Audio/DDR/Inst_DDR/u_ddr_mig/u_ddr2_infrastructure/rstdiv0_sync_r*/PRE'. [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/constrs_1/new/Nexys4DDR_C.xdc:259]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {NAME =~ SyncAsync/oSyncStages_reg[*]/D} -hier'. [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/constrs_1/new/Nexys4DDR_C.xdc:262]
+Finished Parsing XDC File [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/constrs_1/new/Nexys4DDR_C.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/constrs_1/new/Nexys4DDR_C.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/Nexys4DdrUserDemo_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/constrs_1/new/Nexys4DDR_C.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Nexys4DdrUserDemo_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Nexys4DdrUserDemo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1120.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1120.586 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1120.586 ; gain = 102.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1120.586 ; gain = 102.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_i. (constraint file  {c:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_100/clk_wiz_100/clk_wiz_100_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_i. (constraint file  {c:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_100/clk_wiz_100/clk_wiz_100_in_context.xdc}, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for clock_instance. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst_servo/clock_instance. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1120.586 ; gain = 102.609
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'edo_reg' in module 'PROCESADOR_LCD_REVD'
+INFO: [Synth 8-802] inferred FSM for state register 'edo_enable_reg' in module 'PROCESADOR_LCD_REVD'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'TWICtl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                              001 |                               00
+                 iSTATE1 |                              010 |                               01
+                  iSTATE |                              100 |                               10
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'edo_enable_reg' using encoding 'one-hot' in module 'PROCESADOR_LCD_REVD'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                iSTATE24 |                           000000 |                          0000000
+                iSTATE23 |                           000001 |                          0000001
+                iSTATE12 |                           000010 |                          0011110
+                 iSTATE7 |                           000011 |                          0011111
+                iSTATE21 |                           000100 |                          0000010
+                iSTATE20 |                           000101 |                          0000011
+                 iSTATE2 |                           000110 |                          0000100
+                 iSTATE0 |                           000111 |                          0000101
+                iSTATE61 |                           001000 |                          0000110
+                iSTATE59 |                           001001 |                          0000111
+                 iSTATE1 |                           001010 |                          0001000
+                  iSTATE |                           001011 |                          0001001
+                iSTATE60 |                           001100 |                          0001010
+                iSTATE57 |                           001101 |                          0001011
+                iSTATE41 |                           001110 |                          0001100
+                iSTATE40 |                           001111 |                          0001101
+                iSTATE38 |                           010000 |                          0001110
+                iSTATE35 |                           010001 |                          0001111
+                iSTATE58 |                           010010 |                          0010000
+                iSTATE56 |                           010011 |                          0010001
+                iSTATE53 |                           010100 |                          0010010
+                iSTATE52 |                           010101 |                          0010011
+                iSTATE37 |                           010110 |                          0010100
+                iSTATE34 |                           010111 |                          0010101
+                iSTATE31 |                           011000 |                          0010110
+                iSTATE30 |                           011001 |                          0010111
+                iSTATE33 |                           011010 |                          0011001
+                iSTATE29 |                           011011 |                          0011010
+                iSTATE27 |                           011100 |                          0011011
+                iSTATE18 |                           011101 |                          0011100
+                iSTATE15 |                           011110 |                          0011101
+                iSTATE39 |                           011111 |                          0100000
+                iSTATE36 |                           100000 |                          0100001
+                iSTATE32 |                           100001 |                          0100010
+                iSTATE28 |                           100010 |                          0100011
+                iSTATE19 |                           100011 |                          0100100
+                iSTATE17 |                           100100 |                          0100101
+                iSTATE13 |                           100101 |                          0100110
+                iSTATE10 |                           100110 |                          0100111
+                iSTATE16 |                           100111 |                          0101000
+                iSTATE14 |                           101000 |                          0101001
+                 iSTATE9 |                           101001 |                          0101010
+                 iSTATE6 |                           101010 |                          0101011
+                iSTATE55 |                           101011 |                          0101100
+                iSTATE54 |                           101100 |                          0101101
+                iSTATE50 |                           101101 |                          0101110
+                iSTATE47 |                           101110 |                          0101111
+                iSTATE11 |                           101111 |                          0110000
+                 iSTATE8 |                           110000 |                          0110001
+                 iSTATE4 |                           110001 |                          0110010
+                 iSTATE3 |                           110010 |                          0110011
+                iSTATE51 |                           110011 |                          0110100
+                iSTATE48 |                           110100 |                          0110101
+                iSTATE45 |                           110101 |                          0110110
+                iSTATE43 |                           110110 |                          0110111
+                iSTATE49 |                           110111 |                          0111000
+                iSTATE46 |                           111000 |                          0111001
+                iSTATE44 |                           111001 |                          0111010
+                iSTATE42 |                           111010 |                          0111011
+                iSTATE26 |                           111011 |                          0111100
+                iSTATE25 |                           111100 |                          0111101
+                iSTATE22 |                           111101 |                          1100011
+                 iSTATE5 |                           111110 |                          1100100
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'edo_reg' using encoding 'sequential' in module 'PROCESADOR_LCD_REVD'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  stidle |                             0001 |                             0000
+                 ststart |                             1111 |                             0001
+                 stwrite |                             0000 |                             0011
+                  stsack |                             0010 |                             0110
+                  stread |                             0111 |                             0010
+            stmnackstart |                             0110 |                             1001
+                  stmack |                             0100 |                             0111
+             stmnackstop |                             0101 |                             1000
+                  ststop |                             0011 |                             0101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'gray' in module 'TWICtl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1120.586 ; gain = 102.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   23 Bit       Adders := 1     
+	   2 Input   20 Bit       Adders := 1     
+	   3 Input   18 Bit       Adders := 1     
+	   2 Input   18 Bit       Adders := 1     
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 5     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 65    
+	   2 Input    3 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               32 Bit    Registers := 2     
+	               23 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 13    
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 17    
++---Multipliers : 
+	              16x32  Multipliers := 1     
++---Muxes : 
+	   8 Input   40 Bit        Muxes := 1     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   23 Bit        Muxes := 5     
+	   4 Input   17 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 4     
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	  12 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 10    
+	  63 Input    8 Bit        Muxes := 2     
+	  11 Input    8 Bit        Muxes := 1     
+	  25 Input    8 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 2     
+	   8 Input    7 Bit        Muxes := 1     
+	  74 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 50    
+	   4 Input    4 Bit        Muxes := 1     
+	  39 Input    4 Bit        Muxes := 1     
+	   9 Input    4 Bit        Muxes := 1     
+	  27 Input    4 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 4     
+	   2 Input    3 Bit        Muxes := 6     
+	   4 Input    3 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 48    
+	   3 Input    1 Bit        Muxes := 7     
+	   8 Input    1 Bit        Muxes := 9     
+	  57 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 1     
+	  10 Input    1 Bit        Muxes := 2     
+	  62 Input    1 Bit        Muxes := 2     
+	  61 Input    1 Bit        Muxes := 1     
+	  16 Input    1 Bit        Muxes := 1     
+	  56 Input    1 Bit        Muxes := 1     
+	  35 Input    1 Bit        Muxes := 1     
+	  34 Input    1 Bit        Muxes := 1     
+	  33 Input    1 Bit        Muxes := 1     
+	  29 Input    1 Bit        Muxes := 2     
+	  32 Input    1 Bit        Muxes := 2     
+	  28 Input    1 Bit        Muxes := 1     
+	  23 Input    1 Bit        Muxes := 2     
+	  38 Input    1 Bit        Muxes := 2     
+	  14 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 20    
+	   9 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1120.586 ; gain = 102.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1120.586 ; gain = 102.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1120.586 ; gain = 102.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1123.051 ; gain = 105.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \inst_servo/clock_instance  has unconnected pin reset
+CRITICAL WARNING: [Synth 8-4442] BlackBox module clock_instance has unconnected pin reset
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1126.074 ; gain = 108.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1126.074 ; gain = 108.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1126.074 ; gain = 108.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1126.074 ; gain = 108.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1126.074 ; gain = 108.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1126.074 ; gain = 108.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_100   |         1|
+|2     |clk_wiz_50    |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |clk_wiz |     2|
+|3     |CARRY4  |    71|
+|4     |LUT1    |   101|
+|5     |LUT2    |   128|
+|6     |LUT3    |    47|
+|7     |LUT4    |    98|
+|8     |LUT5    |    53|
+|9     |LUT6    |   191|
+|10    |MUXF7   |     7|
+|11    |FDRE    |   232|
+|12    |FDSE    |    28|
+|13    |IBUF    |     2|
+|14    |IOBUF   |     2|
+|15    |OBUF    |    28|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1126.074 ; gain = 108.098
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 2 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:45 . Memory (MB): peak = 1126.074 ; gain = 5.488
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:49 . Memory (MB): peak = 1126.074 ; gain = 108.098
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1138.090 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 80 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1138.090 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 7 Warnings, 3 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 1138.090 ; gain = 120.113
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/Nexys4DdrUserDemo.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Nexys4DdrUserDemo_utilization_synth.rpt -pb Nexys4DdrUserDemo_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  7 15:27:08 2020...

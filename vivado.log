@@ -1,0 +1,192 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec  7 14:05:37 2020
+# Process ID: 17864
+# Current directory: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20316 C:\Users\Labmems\Desktop\David Eduardo\Proy_Final\Proy_Final.xpr
+# Log file: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/vivado.log
+# Journal file: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/A01282921/Proyecto Final Final/Proy_Final' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_100' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_wiz_100' (customized with software release 2018.2) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_50' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_wiz_50' (customized with software release 2018.2) has a different revision in the IP Catalog.
+INFO: [Project 1-230] Project 'Proy_Final.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1016.910 ; gain = 0.000
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+upgrade_ip -srcset clk_wiz_100 -vlnv xilinx.com:ip:clk_wiz:6.0 [get_ips  clk_wiz_100] -log ip_upgrade.log
+Upgrading 'clk_wiz_100'
+INFO: [Project 1-386] Moving file 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_100/clk_wiz_100.xci' from fileset 'clk_wiz_100' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3422] Upgraded clk_wiz_100 (Clocking Wizard 6.0) from revision 1 to revision 6
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_100'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1016.910 ; gain = 0.000
+export_ip_user_files -of_objects [get_ips clk_wiz_100] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+upgrade_ip -srcset clk_wiz_50 -vlnv xilinx.com:ip:clk_wiz:6.0 [get_ips  clk_wiz_50] -log ip_upgrade.log
+Upgrading 'clk_wiz_50'
+INFO: [Project 1-386] Moving file 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.srcs/sources_1/ip/clk_wiz_50/clk_wiz_50.xci' from fileset 'clk_wiz_50' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3422] Upgraded clk_wiz_50 (Clocking Wizard 6.0) from revision 1 to revision 6
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_50'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips clk_wiz_50] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_50'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_50'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_100'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_100'...
+[Mon Dec  7 14:14:29 2020] Launched clk_wiz_100_synth_1, clk_wiz_50_synth_1, synth_1...
+Run output will be captured here:
+clk_wiz_100_synth_1: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/clk_wiz_100_synth_1/runme.log
+clk_wiz_50_synth_1: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/clk_wiz_50_synth_1/runme.log
+synth_1: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/runme.log
+[Mon Dec  7 14:14:29 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-15:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1020.105 ; gain = 3.195
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744948A
+open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2587.738 ; gain = 1567.633
+set_property PROGRAM.FILE {C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Dec  7 14:21:29 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/runme.log
+[Mon Dec  7 14:21:29 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Dec  7 14:41:47 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/runme.log
+[Mon Dec  7 14:41:47 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292744948A
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744948A
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292744948A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Dec  7 15:09:24 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/runme.log
+[Mon Dec  7 15:09:24 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Dec  7 15:12:00 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/runme.log
+[Mon Dec  7 15:12:00 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Dec  7 15:25:57 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/synth_1/runme.log
+[Mon Dec  7 15:25:57 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Labmems/Desktop/David Eduardo/Proy_Final/Proy_Final.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  7 15:33:58 2020...

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Nov 28 13:07:30 2020
+# Process ID: 13360
+# Current directory: C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.sim/sim_1/behav/xsim/xsim.dir/Nexys4DdrUserDemo_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/A01282921/Proyecto Final Final/Proy_Final/Proy_Final.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/A01282921/Proyecto -notrace
+couldn't read file "C:/Users/A01282921/Proyecto": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 28 13:07:30 2020...
